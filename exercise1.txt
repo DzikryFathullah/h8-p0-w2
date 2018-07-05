@@ -1,0 +1,87 @@
+1. Newton Second Law
+
+Algoritma: 
+
+step1 : MasaBenda bernilai 600
+step2 : PercepatBenda bernilai 2
+step3 : Hitung ResultanGaya dengan cara MasaBenda dikalikan PercepatBenda
+step4 : simpan hasil hitung sebagai ResultanGaya
+step5 : Cetak ResultanGaya
+step6 : END.
+
+Pseudocode :
+
+READ STORE MasaBenda 600;
+READ STORE PercepatBenda bernilai 2;
+STORE ResultanGaya tanpa nilai;
+CALCULATE  ResultanGaya = Nilai MasaBenda dikalikan Nilai PercepatBenda;
+STORE nilai CALCULATE ResultanGaya;
+PRINT ResultanGaya;
+END.
+
+2. Tahun Kabisat
+
+Algoritma: 
+
+step1 : Tentukan tahun 
+step2 : Hitung Jika Tahun Modulo 4 sama dengan 0 dan Tahun Modulo 100 Lebih dari 0;
+step4 : dan Jika Tahun Modulo 4 sama dengan 0 dan Tahun Modulo 100 sama dengan 0 dan Tahun Modulo 400 sama dengan 0;
+step5 : Hasil adalah "Kabisat"
+step6 : Lainya Hasil adalah "bukan kabisat"
+step7 : Cetak Hasil
+step8 : END.
+Pseudocode:
+
+READ Tahun;
+STORE Hasil;
+CALCULATE IF Tahun mod 4 = 0 dan Tahun mod 100 >0; 
+        THEN IF Tahun mod 4 = 0 dan Tahun mod 100 = 0 dan Tahun mod 400 = 0;
+        Hasil "KABISAT";
+             ELSE Hasil "BUKAN KABISAT";
+PRINT Tahun adalah Hasil;
+END.
+
+3. Laundy Day
+
+Algoritma:
+
+step1 : Pakaian pada mesin cuci 0
+step2 : Ketika PakaianFx kurang dari 20
+step3 : Lakukan tambah PakaianFx 1
+step4 : kembali ke step2 sampai PakaianFx 20
+step5 : "mulai mencuci"
+step6 : END.
+
+Pseudocode:
+
+READ PakaianFx 1;
+WHILE PakaianFx < 20
+   DO ADD PakaianFx Plus 1;
+PRINT "mulai mencuci";
+END.
+
+4. Periksa Kuku
+
+Algoritma: 
+
+step1 : Tentukan nilai awal NomorSiswa sama dengan nol
+step2 : Ketika NomorSiswa  kurang dari 40
+step3 : Lakukan Syarat jika NomorSiswa dengan kuku Panjang
+step4 : Maka NomorSiswa mendapat "hukuman"
+step5 : Lainnya NomorSiswa Mendapat "pujian"
+step6 : NomorSiswa ditambah 1;
+Step7 : Kembali ke step 2 sampai NomorSiswa lebih dari 40 
+Step8 : END.
+
+Pseudocode:
+
+GET Siswa 0;
+WHILE Siswa < 40;
+   DO IF Siswa = Kuku Panjang;
+         THEN Siswa "hukuman";
+         Else Siswa "pujian";
+    ENDIF;
+   Siswa + 1;
+ENDWHILE;
+END.
+
