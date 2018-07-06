@@ -13,5 +13,4 @@ if (nama==='' || peran==='') {
    console.log('Halo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
  } else {
   console.log('Hallo '+ nama + ', pilih peranmu untuk memulai game!');
- } le.log('Hallo '+ nama + ', pilih peranmu untuk memulai game!');
- } 
+ }
