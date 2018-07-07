@@ -24,20 +24,26 @@ END.
 Algoritma: 
 
 step1 : Tentukan tahun 
-step2 : Hitung Jika Tahun Modulo 4 sama dengan 0 dan Tahun Modulo 100 Lebih dari 0;
-step4 : dan Jika Tahun Modulo 4 sama dengan 0 dan Tahun Modulo 100 sama dengan 0 dan Tahun Modulo 400 sama dengan 0;
-step5 : Hasil adalah "Kabisat"
-step6 : Lainya Hasil adalah "bukan kabisat"
-step7 : Cetak Hasil
-step8 : END.
+step2 : Tentukan hasil
+step3 : Hitung Jika Tahun Modulo 4 = 0 
+step4 : Jika Tahun Modulo 100 != 0;
+step5 : Jika Tahun Modulo 400 =0;
+step6 : Hasil adalah "Kabisat"
+step7 : Lainya Hasil adalah "bukan kabisat"
+step8 : Cetak Hasil
+step9 : END.
+
 Pseudocode:
 
 READ Tahun;
 STORE Hasil;
-CALCULATE IF Tahun mod 4 = 0 dan Tahun mod 100 >0; 
-        THEN IF Tahun mod 4 = 0 dan Tahun mod 100 = 0 dan Tahun mod 400 = 0;
-        Hasil "KABISAT";
-             ELSE Hasil "BUKAN KABISAT";
+CALCULATE IF Tahun modulo  4 = 0 
+                      THEN IF Tahun modulo 100 != 0
+		Hasil Kabisat 
+	                ELSE IF Tahun modulo  400 = 0;
+                                 Hasil "KABISAT";
+                                 ELSE
+                                Hasil "BUKAN KABISAT";
 PRINT Tahun adalah Hasil;
 END.
 
