@@ -7,27 +7,24 @@ console.log(shoutOut())
 console.log('-------------------')
 
 // 2. Tugas 2
-function calculateMultiply (){
+function calculateMultiply (num1,num2){
+var num1 
+var num2 
   return num1 * num2
 }
 
-var num1 = 5;
-var num2 = 6;
-
-var hasilPerkalian = calculateMultiply(num1,num2);
+var hasilPerkalian = calculateMultiply(5,6);
 console.log(hasilPerkalian); 
 
-console.log('-------------------')
-
 //3. Tugas 3
-function processSentence (){
+function processSentence (name,age,address,hobby){
+//revisi section improvement - Addtional
+var name 
+var age 
+var address 
+var hobby
   return 'nama saya ' + name + ', umur saya ' + age + ' tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + ' !'
 }
 
-var name = "Agus";
-var age = 30;
-var address = "Jln. Malioboro, Yogjakarta";
-var hobby = "gaming";
-
-var fullSentence = processSentence(name,age,address,hobby);
+var fullSentence = processSentence('agus',30,'Jln. Malioboro, Yogjakarta','gaming');
 console.log(fullSentence);
